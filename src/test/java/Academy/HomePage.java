@@ -34,6 +34,7 @@ public class HomePage extends base {
 		driver.get(prop.getProperty("url"));
 		LamdingPage l = new LamdingPage(driver);
 		l.getLogin().click();
+		log.info("clicked on login button");
 		LoginPage ln = new LoginPage(driver);
 	    ln.getEmail().sendKeys(Username);
 		ln.getPassword().sendKeys(Password);

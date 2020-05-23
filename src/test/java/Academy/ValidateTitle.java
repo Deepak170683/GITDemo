@@ -27,7 +27,7 @@ public class ValidateTitle extends base {
 		log.info("Driver intilized");
 		driver.get(prop.getProperty("url"));
 		log.info("Navigated to Home page");
-		log.debug("Navigated to Home page");
+	
 	}
 	
 	
